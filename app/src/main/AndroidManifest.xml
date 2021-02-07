@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectUAS">
-        <activity android:name=".ui.ListFilmActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.ListFilmActivity"/>
+        <activity android:name=".ui.DaftarBioskop"/>
+        <activity android:name=".ui.RegisterActivity"/>
+        <activity android:name=".ui.PenjualanActivity"/>
     </application>
 
 </manifest>
